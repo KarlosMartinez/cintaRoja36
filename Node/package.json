@@ -1,0 +1,11 @@
+{
+  "name": "first",
+  "version": "0.0.1",
+  "description": "Cinta_Roja primer node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JC Martinez",
+  "license": "MIT"
+}

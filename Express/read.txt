@@ -1,0 +1,14 @@
+**revisar los verbos para trabajar con express en la sig liga:
+
+https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+
+
+**Codigo de estado STATUS CODES  
+
+https://developer.mozilla.org/es/docs/Web/HTTP/Status
+
+
+
+**nodemon extension del node
+
+esta pendiente de los cambios del programas y se refresca solo

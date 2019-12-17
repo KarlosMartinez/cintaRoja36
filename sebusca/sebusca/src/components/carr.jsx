@@ -1,25 +1,25 @@
 import React from 'react';
 //import b1 from './src/assets/img/SB1.jpg';
-
+import './Carr.css';
 
 function Carr (props){
     console.log(props)
     return(
-        <div style={{ height: '60vh', width: '100%', border:'solid 1px' }}>
+        <div>
              
   
+             
 
-
-<div id="carouselExampleControls" className="carousel slide  align-item-center" data-ride="carousel" style={{ height: '60vh', width: '100%', border:'solid 1px'   }}>
+<div id="carouselExampleControls" className="carousel slide  align-item-center" data-ride="carousel" >
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src='https://i.imgur.com/pK55386.jpg' className="d-block w-100 object-fit " alt="img1"/>
+      <img src='https://i.imgur.com/iLlL6IP.jpg' className=" imgCarr d-block w-100 object-fit:cover" alt="img1"/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.imgur.com/JQPKXkZ.jpg" className="d-block w-100" alt="img2"/>
+      <img src="https://i.imgur.com/pEQGUxW.jpg"  className=" imgCarr d-block w-100 object-fit:cover" alt="img2"/>
     </div>
     <div className="carousel-item">
-      <img src="https://i.imgur.com/Y5XIolT.jpg" className="d-block w-100" alt="img3"/>
+      <img src="https://i.imgur.com/7xW5Hp3.jpg" className=" imgCarr <d-block w-100 object-fit:cover " alt="img3"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

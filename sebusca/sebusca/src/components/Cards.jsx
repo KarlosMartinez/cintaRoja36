@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-//import Personas from './Personas';
-
-//import CardGroup from 'react-bootstrap/CardGroup'
 
 
 
@@ -9,11 +6,50 @@ import React, {Component} from 'react';
 const Cards = ({Cards}) =>{
 
 return (
+    <div className="card-group d-flex juatufy-content-around ">
+  <div className="card d-flex p-2 text-white   mb-4 mx-4">
+    <img src="https://i.imgur.com/xEwOkno.jpg" className="card-img-top" alt="..."/>
+    <div className="card-body bg-danger">
+      <h5 className="card-title">Nombre: {Cards.name} {Cards.apellido}</h5>
+      <p className="card-text " >Edad: {Cards.edad}</p>
+      <p className="card-text " >Ubicación: {Cards.ubicacion}</p>
+      <p className="card-text text-white">Descripción: {Cards.descripcion}</p>
+    </div>
+  </div>
+  <div className="card d-flex p-2 text-white   mb-4 mx-4">
+    <img src="https://i.imgur.com/F7DYEhk.jpg" className="card-img-top" alt="..."/>
+    <div className="card-body bg-warning">
+      <h5 className="card-title">Nombre: {Cards.name} {Cards.apellido}</h5>
+      
+      <p className="card-text">Edad: {Cards.edad}</p>
+      <p className="card-text">Ubicacion {Cards.ubicacion}</p>
+      <p className="card-text">Descripción: {Cards.descripcion}</p>
+    </div>
+  </div>
+  <div className="card d-flex p-2 text-white   mb-4 mx-4">
+    <img src="https://i.imgur.com/Y5XIolT.jpg" className="card-img-top" alt="..."/>
+    <div className="card-body bg-success">
+      <h5 className="card-title">Nombre: {Cards.name} {Cards.apellido}</h5>
+      <p className="card-text">Edad: {Cards.edad}</p>
+      <p className="card-text">Ubicación: {Cards.ubicacion}</p>
+<p className="card-text">Descripción:{Cards.descripcion}</p>
+    </div>
+  </div>
+</div>
    
-   <div className="card-group">
+
+
+
+
+
+);
+}
+export default Cards;
+/*
+<div className="card-group">
        
-<div className="card width=100%  d-flex justify-content-space-around" style={{ height: '50vh', width: '50%' }} >
-  <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj7j7Kbu7vmAhVOIKwKHa5CD-oQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.freepik.es%2Fvector-gratis%2Fcartel-western-busca_1015657.htm&psig=AOvVaw13Bhr8ImX2CwtgMBXdRiAt&ust=1576630149938535" className="card-img-top" alt="..."/>
+<div className="card width=25%  d-flex justify-content-space-around" style={{ height: '50vh', width: '50%' }} >
+  <img src="https://i.imgur.com/Y5XIolT.jpg " className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Nombre: {Cards.name} {Cards.apellido}</h5>
     <p className="card-text">Edad: {Cards.edad}</p>
@@ -22,15 +58,4 @@ return (
   </div>
 </div>
    </div> 
-
-
-
-
-);
-}
-
-
-
-
-
-export default Cards;
+   */

@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -36,6 +38,11 @@
     transform: rotate(360deg);
   }
 }
-img {
+@img {
   object-fit: fill;
+}
+
+.d-block{
+
+  object-fit: cover;
 }

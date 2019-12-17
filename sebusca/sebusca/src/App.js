@@ -5,6 +5,8 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'jquery';
 import 'popper.js';
 import './App.css';
+import { BrowserRouter, Route} from 'react-router-dom';
+//import {Link} from 'react-router-dom'
 //import {Map, GoogleApiWrapper} from 'google-maps-react';
 
 //components
@@ -15,6 +17,7 @@ import Carr from './components/carr'
 import Personas from './components/Personas'
 //import Mapas from './components/Mapas'
 import  SimpleMap from './components/Mapas'
+import nuevoRegistro from './components/nuevoRegistro';
 
 
 
@@ -29,19 +32,32 @@ class App extends Component {
   render (){
   return (
     <div>
-      <Navbar/>
+<BrowserRouter>
+<Navbar/>
+<Route path="/nuevoRegistro">
+    <nuevoRegistro/>
+    
+  </Route>
+  <Route path="/Home">
+    <Home/>
+  </Route>
+ 
+  
+  
+  </BrowserRouter>    
+      
 
-      <Home 
-      titulo='Se Busca'
-      />
+    
   
       <Carr/>
-      <SimpleMap/>
+    
 
       <Personas/>
       
       
- 
+      <SimpleMap/>
+      
+
 
     </div>
  );
